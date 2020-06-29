@@ -1,0 +1,25 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "单元测试（服务端测试）",
+  "main": "sum.js",
+  "scripts": {
+    "test": "mocha"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2935074873/unit-testing.git"
+  },
+  "keywords": [],
+  "author": "xuting",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2935074873/unit-testing/issues"
+  },
+  "homepage": "https://github.com/2935074873/unit-testing#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1"
+  }
+}
