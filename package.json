@@ -5,7 +5,6 @@
   "main": "sum.js",
   "scripts": {
     "test": "mocha"
-  
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   "homepage": "https://github.com/2935074873/unit-testing#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
     "mocha": "^8.0.1"
   }
 }
