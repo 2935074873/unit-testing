@@ -4,7 +4,7 @@
   "description": "单元测试（服务端测试）",
   "main": "sum.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha-headless-chrome -f test.index.html -a no-sandbox"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "istanbul": "^0.4.5",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "mocha-headless-chrome": "^3.1.0"
   }
 }

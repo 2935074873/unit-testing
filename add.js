@@ -1,5 +1,5 @@
 
-module.exports = function add(x,y){
+ function add(x,y){
     let _x = Number(x),
         _y = Number(y);
 
